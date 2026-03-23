@@ -3,108 +3,131 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Norme sulla Privacy / Privacy Policy - HikePro</title>
-  <meta name="description" content="Norme sulla Privacy / Privacy Policy di HikePro - come raccogliamo, utilizziamo e proteggiamo i dati degli utenti.">
+  <title>Norme sulla Privacy / Privacy Policy - HikePRO</title>
+  <meta name="description" content="Norme sulla Privacy / Privacy Policy di HikePRO.">
   <style>
     :root { --fg:#1a1a1a; --muted:#555; --bg:#fff; --accent:#0d6efd; }
-    html, body { margin:0; padding:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; color:var(--fg); background:var(--bg); line-height:1.6; }
+    html, body { margin:0; padding:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color:var(--fg); background:var(--bg); line-height:1.6; }
     header { padding: 40px 20px 10px; text-align:center; }
     h1 { margin:0 0 10px; font-size: clamp(26px, 4vw, 38px); }
     .subtitle { color:var(--muted); margin-bottom: 24px; }
-    main { max-width: 1000px; margin: 0 auto; padding: 0 20px 80px; }
+    main { max-width: 960px; margin: 0 auto; padding: 0 20px 80px; }
     h2 { margin-top: 32px; font-size: 22px; }
     h3 { margin-top: 20px; font-size: 18px; }
     a { color: var(--accent); text-decoration: underline; }
-    .card { background:#f7f7f9; border:1px solid #e8e8ef; border-radius: 12px; padding: 16px 18px; }
     ul { padding-left: 20px; }
     footer { border-top:1px solid #eee; padding: 20px; text-align:center; color:var(--muted); font-size:14px; }
-    .small { font-size: 14px; color:var(--muted); }
     .updated { font-weight: 600; }
     .lang { margin-top:60px; padding-top:30px; border-top:2px solid #ddd; }
+    code { background:#f5f5f7; padding:2px 4px; border-radius:4px; }
   </style>
 </head>
 <body>
   <header>
-    <h1>Norme sulla Privacy / Privacy Policy - HikePro</h1>
-    <p class="subtitle"><span class="updated">Ultimo aggiornamento / Last updated:</span> 18 agosto 2025</p>
+    <h1>Norme sulla Privacy / Privacy Policy - HikePRO</h1>
+    <p class="subtitle"><span class="updated">Ultimo aggiornamento / Last updated:</span> 23 marzo 2026 / 23 March 2026</p>
   </header>
+
   <main>
     <section id="it">
-      <h2>🇮🇹 Norme sulla Privacy di HikePro</h2>
-      <p>Queste Norme sulla Privacy descrivono come l’applicazione <strong>HikePro</strong> raccoglie, utilizza e protegge i dati degli utenti.</p>
+      <h2>Norme sulla Privacy di HikePRO</h2>
+      <p>Queste Norme sulla Privacy descrivono come l’applicazione <strong>HikePRO</strong> raccoglie, utilizza e protegge i dati degli utenti.</p>
 
       <h3>Dati raccolti</h3>
       <ul>
-        <li><strong>Posizione del dispositivo</strong>: usata per mostrare la posizione sulla mappa e fornire previsioni meteo locali.</li>
-        <li><strong>Dati tecnici</strong> (log, crash, info dispositivo): usati per migliorare stabilità e performance.</li>
-        <li><strong>Nessun dato personale</strong> (nome, email) viene richiesto dall’app.</li>
+        <li><strong>Posizione esatta e approssimativa</strong>: usata per mappe, localizzazione, navigazione, tracking, meteo locale e notifiche meteo, incluse le notifiche in background se abilitate.</li>
+        <li><strong>Dati inseriti dall’utente</strong>: come ricerche, coordinate, preferiti, tracce e mappe offline.</li>
+        <li><strong>Dati tecnici e dati memorizzati localmente</strong>: usati per far funzionare l’app, incluse cache, impostazioni, ultima posizione utile e dati necessari alle funzionalità richieste.</li>
+        <li><strong>Dati di autenticazione opzionali</strong>: se colleghi un account OpenStreetMap, l’app può memorizzare localmente token di sessione e nome utente per funzioni opzionali di upload.</li>
       </ul>
 
       <h3>Finalità</h3>
-      <p>I dati sono utilizzati esclusivamente per navigazione outdoor, meteo locale e miglioramento dell’app.</p>
+      <p>I dati sono utilizzati esclusivamente per fornire le funzionalità principali di HikePRO, tra cui mappe, posizione, navigazione outdoor, tracking, meteo, notifiche meteo, ricerca luoghi, routing e gestione di contenuti offline.</p>
 
-      <h3>Condivisione</h3>
-      <p>Non vendiamo né condividiamo i tuoi dati con terzi per finalità commerciali. L’app si appoggia a servizi esterni necessari al funzionamento:</p>
+      <h3>Servizi esterni</h3>
+      <p>HikePRO non vende dati personali e non li condivide con terzi per finalità pubblicitarie o commerciali. Alcuni dati possono però essere trasmessi a servizi esterni necessari al funzionamento dell’app, ad esempio:</p>
       <ul>
-        <li><strong>OpenWeatherMap</strong> (meteo) — <a href="https://openweather.co.uk/privacy-policy" target="_blank" rel="noopener">Informativa</a></li>
-        <li><strong>OpenStreetMap (OSM)</strong> per le mappe. Il rendering delle mappe avviene tramite <em>tile servers</em> che possono essere gestiti dalla <strong>OpenStreetMap Foundation</strong> o da un provider di tile configurato nell’app (es. MapTiler/Mapbox/OpenMapTiles). Le richieste di tile possono includere indirizzo IP e <em>User-Agent</em> del tuo dispositivo, necessari all’erogazione del servizio. — <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">Informativa OSMF</a> (verifica anche l’informativa del provider di tile eventualmente utilizzato).</li>
+        <li><strong>Open-Meteo</strong> per meteo e qualità dell’aria.</li>
+        <li><strong>OpenWeatherMap</strong> per alcuni layer meteo opzionali sulla mappa.</li>
+        <li><strong>OpenStreetMap e provider di tile</strong> per mappe e tile.</li>
+        <li><strong>Nominatim e Android Geocoder</strong> per ricerca luoghi e geocodifica.</li>
+        <li><strong>OpenRouteService, OSRM, TomTom e Transitous</strong> per routing, traffico, incidenti o trasporto pubblico.</li>
+        <li><strong>Avalanche.report</strong> per bollettini valanghe nelle aree supportate.</li>
+        <li><strong>Mapbox</strong> per la vista 3D opzionale.</li>
+        <li><strong>OpenStreetMap OAuth</strong> se scegli di collegare un account OSM esistente.</li>
       </ul>
 
-      <h3>Diritti utente</h3>
-      <p>Puoi esercitare i tuoi diritti (accesso, cancellazione, opposizione) scrivendo a: <a href="mailto:franks90k@gmail.com">franks90k@gmail.com</a></p>
+      <h3>Crittografia in transito</h3>
+      <p>Le comunicazioni di rete effettuate dall’app verso i servizi utilizzati avvengono tramite connessioni cifrate in transito.</p>
 
-      <h3>Minori</h3>
-      <p>HikePro non è destinata a minori di 16 anni.</p>
+      <h3>Conservazione dei dati</h3>
+      <p>Una parte dei dati viene conservata localmente sul dispositivo per abilitare funzionalità come mappe offline, preferiti, tracce, cache meteo e notifiche.</p>
 
       <h3>Richiesta di eliminazione dei dati</h3>
-<p>Gli utenti possono richiedere l’eliminazione dei dati associati all’uso di HikePro scrivendo a <a href="mailto:franks90k@gmail.com">franks90k@gmail.com</a> con oggetto “Richiesta eliminazione dati - HikePro”.</p>
-<p>Su richiesta, elimineremo i dati locali o associati ai nostri servizi che possiamo ragionevolmente collegare all’utente, inclusi eventuali token di sessione e dati memorizzati per le funzionalità dell’app, salvo i dati che dobbiamo conservare per obblighi legali o di sicurezza.</p>
-<p>Poiché alcune funzionalità opzionali usano servizi di terze parti, i dati gestiti direttamente da tali provider potrebbero dover essere eliminati anche tramite il rispettivo servizio. Per esempio, i contenuti caricati su OpenStreetMap restano soggetti alle policy e agli strumenti di OpenStreetMap.</p>
+      <p>Gli utenti possono richiedere l’eliminazione dei dati associati all’uso di HikePRO scrivendo a <a href="mailto:franks90k@gmail.com">franks90k@gmail.com</a> con oggetto <code>Richiesta eliminazione dati - HikePRO</code>.</p>
+      <p>Quando possibile, elimineremo i dati che possiamo ragionevolmente collegare all’utente. Alcuni contenuti o dati gestiti direttamente da servizi terzi possono restare soggetti alle policy del rispettivo provider.</p>
 
+      <h3>Diritti utente</h3>
+      <p>Per richieste di accesso, cancellazione o informazioni sui dati, contatta: <a href="mailto:franks90k@gmail.com">franks90k@gmail.com</a></p>
+
+      <h3>Minori</h3>
+      <p>HikePRO non è destinata a minori di 16 anni.</p>
 
       <h3>Contatti</h3>
       <p>Email: <a href="mailto:franks90k@gmail.com">franks90k@gmail.com</a></p>
     </section>
 
     <section id="en" class="lang">
-      <h2>🇬🇧 Privacy Policy of HikePro</h2>
-      <p>This Privacy Policy describes how the <strong>HikePro</strong> app collects, uses, and protects user data.</p>
+      <h2>Privacy Policy of HikePRO</h2>
+      <p>This Privacy Policy describes how the <strong>HikePRO</strong> app collects, uses, and protects user data.</p>
 
       <h3>Data collected</h3>
       <ul>
-        <li><strong>Device location</strong>: used to display your position on the map and provide local weather forecasts.</li>
-        <li><strong>Technical data</strong> (logs, crash reports, device info): used to improve stability and performance.</li>
-        <li><strong>No personal data</strong> (name, email) is required by the app.</li>
+        <li><strong>Precise and approximate location</strong>: used for maps, positioning, navigation, tracking, local weather, and weather notifications, including background weather notifications if enabled.</li>
+        <li><strong>User-provided data</strong>: such as searches, coordinates, favorites, tracks, and offline maps.</li>
+        <li><strong>Technical and locally stored data</strong>: used to operate the app, including cache, settings, last useful location, and data required for requested features.</li>
+        <li><strong>Optional authentication data</strong>: if you connect an OpenStreetMap account, the app may store your username and session token locally for optional upload features.</li>
       </ul>
 
       <h3>Purpose</h3>
-      <p>Data is used exclusively for outdoor navigation, local weather, and app improvement.</p>
+      <p>Data is used exclusively to provide HikePRO core features, including maps, positioning, outdoor navigation, tracking, weather, weather notifications, place search, routing, and offline content management.</p>
 
-      <h3>Data sharing</h3>
-      <p>We do not sell or share your data with third parties for commercial purposes. The app relies on external services required for functionality:</p>
+      <h3>Third-party services</h3>
+      <p>HikePRO does not sell personal data and does not share it with third parties for advertising or commercial purposes. Some data may be transmitted to third-party services necessary to operate the app, for example:</p>
       <ul>
-        <li><strong>OpenWeatherMap</strong> (weather) — <a href="https://openweather.co.uk/privacy-policy" target="_blank" rel="noopener">Privacy</a></li>
-        <li><strong>OpenStreetMap (OSM)</strong> for maps. Map rendering uses <em>tile servers</em> operated by the <strong>OpenStreetMap Foundation</strong> or by a configured tile provider in the app (e.g., MapTiler/Mapbox/OpenMapTiles). Tile requests may include your device’s IP address and User‑Agent, which are necessary to deliver the service. — <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">OSMF Privacy Policy</a> (also review the tile provider’s privacy policy if applicable).</li>
+        <li><strong>Open-Meteo</strong> for weather and air quality.</li>
+        <li><strong>OpenWeatherMap</strong> for optional weather map overlays.</li>
+        <li><strong>OpenStreetMap and tile providers</strong> for maps and tiles.</li>
+        <li><strong>Nominatim and Android Geocoder</strong> for place search and geocoding.</li>
+        <li><strong>OpenRouteService, OSRM, TomTom, and Transitous</strong> for routing, traffic, incidents, or transit.</li>
+        <li><strong>Avalanche.report</strong> for avalanche bulletins in supported regions.</li>
+        <li><strong>Mapbox</strong> for the optional 3D view.</li>
+        <li><strong>OpenStreetMap OAuth</strong> if you choose to connect an existing OSM account.</li>
       </ul>
 
-      <h3>User rights</h3>
-      <p>You may exercise your rights (access, deletion, objection) by writing to: <a href="mailto:franks90k@gmail.com">franks90k@gmail.com</a></p>
+      <h3>Encryption in transit</h3>
+      <p>Network communications performed by the app with the services it uses are transmitted through encrypted connections in transit.</p>
 
-      <h3>Children</h3>
-      <p>HikePro is not intended for children under 16 years old.</p>
+      <h3>Data retention</h3>
+      <p>Some data is stored locally on the device to enable features such as offline maps, favorites, tracks, weather cache, and notifications.</p>
 
       <h3>Data deletion request</h3>
-<p>Users can request deletion of data associated with their use of HikePro by emailing <a href="mailto:franks90k@gmail.com">franks90k@gmail.com</a> with the subject “Data deletion request - HikePro”.</p>
-<p>Upon request, we will delete local data or data associated with our services that we can reasonably link to the user, including session tokens and data stored for app functionality, except where retention is required for legal or security reasons.</p>
-<p>Because some optional features rely on third-party services, data managed directly by those providers may also need to be deleted through the relevant provider. For example, content uploaded to OpenStreetMap remains subject to OpenStreetMap policies and tools.</p>
+      <p>Users can request deletion of data associated with their use of HikePRO by emailing <a href="mailto:franks90k@gmail.com">franks90k@gmail.com</a> with the subject <code>Data deletion request - HikePRO</code>.</p>
+      <p>Where possible, we will delete data that we can reasonably link to the user. Some content or data managed directly by third-party providers may remain subject to that provider’s own policies.</p>
 
+      <h3>User rights</h3>
+      <p>For access, deletion, or data-related questions, contact: <a href="mailto:franks90k@gmail.com">franks90k@gmail.com</a></p>
+
+      <h3>Children</h3>
+      <p>HikePRO is not intended for children under 16 years old.</p>
 
       <h3>Contact</h3>
       <p>Email: <a href="mailto:franks90k@gmail.com">franks90k@gmail.com</a></p>
     </section>
   </main>
+
   <footer>
-    © 2025 HikePro — Norme sulla Privacy / Privacy Policy
+    © 2026 HikePRO — Norme sulla Privacy / Privacy Policy
   </footer>
 </body>
 </html>
